@@ -1,0 +1,36 @@
+/* P.special{
+    color:green;
+    border:solid red;
+} */
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom right,#ffffff, #FAFCFF); 
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centered {
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.start {
+    position: absolute;
+    top:70%;
+    left: 30%;
+    font-size: 40px;
+    background-color:#39a0cf;
+    border-radius:10px;
+    display: inline-flex;
+}
+.start_text{
+    display: inline-flex;
+    align-items:cencer;
+    padding: 0 24px;
+    color: #FAFCFF
+}
